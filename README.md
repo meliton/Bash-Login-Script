@@ -1,5 +1,4 @@
 # Bash-Login-Script
-Login script using Bash<br>
 
 This login facility uses Bash to verify username and password pairs (but seriously... do not use this on a production server)<br><br>
 

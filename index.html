@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#icon{width:80px; height:80px; background-repeat:no-repeat; float:left; background-image:url(icon.gif); background-position:center;}
+#main{margin:auto; border:2px solid; width:400px; background:#F1F3F5; font-family:Arial;}
+.caption{font-family:Arial; font-weight:bold; margin:10px; font-size:24px; color:#C64934;}
+.text{border:1px solid #cccccc;}
+form{margin-left:80px; border:1px solid; width:270px; background:#E9ECEF; font-family:Arial; font-weight:bold; font-size:12px; padding:5px; margin-bottom:10px;}
+</style>
+<title>Server Login System</title>
+</head>
+<body>
+    <div id="main">
+      <div class="caption">Server Login System</div>
+      <div id="icon">&nbsp;</div>
+      <form action="cgi/checkit.cgi" method="get" name="loginform">
+        <table>
+          <tr><td>Username:</td><td> <input class="text" name="name" type="text"  /></td></tr>
+          <tr><td>Password:</td><td> <input class="text" name="pass" type="password" /></td></tr>
+          <tr><td></td><td><input class="text" type="submit" name="sbtn" value="Login" /></td></tr>
+        </table>  
+      </form>
+	</div>
+</body> 
+</html> 

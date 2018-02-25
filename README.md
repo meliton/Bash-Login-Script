@@ -1,6 +1,6 @@
 # Bash-Login-Script
 
-This login facility uses Bash to verify username and password pairs (but seriously... do not use this on a production server)<br><br>
+This login facility uses Bash to verify username and password pairs (but seriously... do not use this on a production server)<br>
 
 ### HOW IT WORKS
 The main file `index.html` takes a username and password then uses `GET` to send the pairs to the backend cgi.<br>
